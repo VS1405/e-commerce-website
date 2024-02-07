@@ -9,11 +9,11 @@ const Hero = () => {
             src="https://i0.wp.com/www.theweddingvowsg.com/wp-content/uploads/2021/02/Best-Fruit-Delivery-and-Subscription-Singapore-Amazon-Fresh.jpg?fit=1200%2C628&ssl=1"
             alt="dry-fruits"
           />
-          <div className="absolute md:ml-[60%] ml-6 top-[50%] -translate-y-[50%] sm:space-y-4 lg:block">
+          <div className="absolute  md:ml-[70%] ml-6 top-[50%] -translate-y-[50%] sm:space-y-4 lg:block ml-[70%]">
             <p className="text-xl flex font-semibold">100% Fresh Fruit's</p>
             <h3 className="text-2xl font-medium text-startingAt">Starting at ...</h3>
             <p className="text-black font-serif text-2xl">$10.30</p>
-            <div className="bg-accentDark inline-flex justify-center p-1 pr-2 pl-2 items-center rounded-full text-center hover:bg-accent cursor-pointer font-normal text-white">
+            <div className="bg-accent inline-flex justify-center p-1 pr-2 pl-2 items-center rounded-full text-center hover:bg-accentDark cursor-pointer font-normal text-white">
               Show more <IoMdArrowForward />
             </div>
           </div>
@@ -27,8 +27,8 @@ const Hero = () => {
           <div className="absolute text-white md:ml ml-6 top-[50%] -translate-y-[50%] sm:space-y-4 lg:block">
             <p className="text-xl flex font-semibold">100% Fresh Fruit's</p>
             <h3 className="text-2xl font-medium text-startingAt">Starting at ...</h3>
-            <p className="font-serif text-2xl"><span className="text-red-300">15%</span> OFF</p>
-            <div className="bg-accentDark inline-flex justify-center p-1 pr-2 pl-2 items-center rounded-full text-center hover:bg-accent cursor-pointer font-normal text-white">
+            <p className="font-serif text-2xl"><span className="text-red-600">15%</span> OFF</p>
+            <div className="bg-accent inline-flex justify-center p-1 pr-2 pl-2 items-center rounded-full text-center hover:bg-accentDark cursor-pointer font-normal text-white">
               Show more <IoMdArrowForward />
             </div>
           </div>
@@ -42,8 +42,8 @@ const Hero = () => {
           <div className="absolute text-white md:ml ml-6 top-[50%] -translate-y-[50%] sm:space-y-4 lg:block">
             <p className="text-xl flex font-semibold">100% Fresh </p>
             <h3 className="text-2xl text-startingAt font-medium">Starting at ...</h3>
-            <p className=" font-serif text-2xl"><span className="text-red-300">20%</span> OFF</p>
-            <div className="bg-accentDark inline-flex justify-center p-1 pr-2 pl-2 items-center rounded-full text-center hover:bg-accent cursor-pointer font-normal text-white">
+            <p className=" font-serif text-2xl"><span className="text-red-400">20%</span> OFF</p>
+            <div className="bg-accent inline-flex justify-center p-1 pr-2 pl-2 items-center rounded-full text-center hover:bg-accentDark cursor-pointer font-normal text-white">
               Show more <IoMdArrowForward />
             </div>
           </div>
