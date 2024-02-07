@@ -14,7 +14,7 @@ const data = [
     { id: '2', img: ChocklateImg, name: "Chocklate" , count: "$15.70"},
     { id: '4', img: HoneyImg, name: "Original Honey", count: "$15.70" },
     { id: '5', img: EggImg, name: "Egg", count: "$15.70" },
-    { id: '6', img: IceCreamImg, name: "Fresh Ice Cream", count: "$15.70" },
+    { id: '6', img: IceCreamImg, name: "Fresh Ice Cream", count: "$15.70" }
 ];
 const Category = () => {
   return (
