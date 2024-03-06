@@ -11,10 +11,10 @@ const data = [
     { id: '3', img: BreadImg, name: "Fresh Bread", count: "$15.70" },
     { id: '2', img: ChocklateImg, name: "Chocklate" , count: "$15.70"},
     { id: '4', img: HoneyImg, name: "Original Honey", count: "$15.70" },
-    { id: '2', img: ChocklateImg, name: "Chocklate" , count: "$15.70"},
-    { id: '4', img: HoneyImg, name: "Original Honey", count: "$15.70" },
-    { id: '5', img: EggImg, name: "Egg", count: "$15.70" },
-    { id: '6', img: IceCreamImg, name: "Fresh Ice Cream", count: "$15.70" }
+    { id: '5', img: ChocklateImg, name: "Chocklate" , count: "$15.70"},
+    { id: '6', img: HoneyImg, name: "Original Honey", count: "$15.70" },
+    { id: '7', img: EggImg, name: "Egg", count: "$15.70" },
+    { id: '8', img: IceCreamImg, name: "Fresh Ice Cream", count: "$15.70" }
 ];
 const Category = () => {
   return (

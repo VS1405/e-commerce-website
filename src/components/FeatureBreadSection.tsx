@@ -8,7 +8,6 @@ import HoneyImg from "../accest/img/honey.jpeg";
 // import IceCreamImg from "../accest/img/ice-cream.jpg";
 
 const data = [
-  { id: "3", img: BreadImg, name: "Fresh Bread", price: "$15.70" },
   { id: "2", img: ChocklateImg, name: "Chocklate", price: "$15.70" },
   { id: "4", img: HoneyImg, name: "Original Honey", price: "$15.70" },
   { id: "5", img: EggImg, name: "Egg", price: "$15.70" },
