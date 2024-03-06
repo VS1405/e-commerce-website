@@ -11,14 +11,14 @@ import BlackBerry from '../accest/img/BlackBerryfruits.jpeg'
 const data = [
   { id: "1", img: FruitsImg, name: "Fresh Fruits", price: "$10" },
   { id: "2", img: ChocklateImg, name: "Chocklate", price: "$15.70" },
-  { id: "4", img: KiwiFruits, name: "Original Honey", price: "$15.70" },
-  { id: "6", img: BlackBerry, name: "Fresh Ice Cream", price: "$15.70" },
+  { id: "3", img: KiwiFruits, name: "Original Honey", price: "$15.70" },
+  { id: "4", img: BlackBerry, name: "Fresh Ice Cream", price: "$15.70" },
   
 ];
 const FeatureFruitsSection = () => {
   return (
     <div className="container pt-16">
-      <div className="lg:flex justify-between items-center">
+      <div className="lg:flex justify-between items-center ">
         <div>
           <h3 className="text-2xl font-medium">Fruits and Vegetables</h3>
           <p className="text-gray-600 mt-2">

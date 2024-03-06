@@ -15,11 +15,11 @@ const Navbar = () => {
           />
           <CiSearch className="absolute top-0 right-0 mt-4 mr-5 text-gray-500" size='20px'/>
         </div>
-        <div className="flex gap-4">
+        <div className="flex gap-4 hover:cursor-pointer">
           <div className="icons__wrapper">
             <AiOutlineUser />
           </div>
-          <div className="icons__wrapper relative">
+          <div className="icons__wrapper relative hover:cursor-pointer">
             <AiOutlineShoppingCart />
             <CartShopBadge size="w-[25px] h-[25px]" />
           </div>
